@@ -31,7 +31,7 @@ ul {
 header {
   width: 100vw;
   height: 100vh;
-  background-image: url(./4th.jpg);
+  background-image: url(./image/4th.jpg);
   background-position: bottom;
   background-size: cover;
   display: flex;
@@ -176,6 +176,15 @@ p {
   color: whitesmoke;
   margin: 20px auto;
 }
+
+/* /animation/ */
+img {
+  transition: transform 0.3s ease;
+}
+img:hover {
+  transform: scale(1.1);
+}
+
 /* /mobile device/ */
 @media screen and (max-width: 840px) {
   .menu-btn {
@@ -229,13 +238,6 @@ p {
   }
   .footer {
     padding: 10px;
-  }
-  /* /animation/ */
-  img {
-    transition: transform 0.3s ease;
-  }
-  img:hover {
-    transform: scale(1.1);
   }
   .ctn:hover {
     background: rgb(241, 7, 7);
